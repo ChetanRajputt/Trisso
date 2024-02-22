@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.lightMode {
+    background-color: white;
+    color: black;
+}
+
+.darkMode {
+    background-color: black;
+    color: white;
+}
+
+.our-products::-webkit-scrollbar {
+    display: none;
+}
